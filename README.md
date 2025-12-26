@@ -30,6 +30,8 @@
 
 ## 🚀 Getting Started
 
-1. **Clone the repository**
-   ```bash
-   git clone (https://github.com/yafann/christmas-tree.git)
+### Clone the repository
+
+```bash
+git clone https://github.com/yafann/magic-christmas-tree.git
+
