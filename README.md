@@ -33,5 +33,5 @@
 ### Clone the repository
 
 ```bash
-git clone https://github.com/yafann/magic-christmas-tree.git
+git clone https://github.com/yafann/christmas-tree.git
 
