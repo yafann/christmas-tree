@@ -1,37 +1,70 @@
-# 🎄 Magic Christmas Tree 
+# Magic Christmas Tree
+
 ### Interactive 3D Experience with AI Hand Tracking
 
-**Magic Christmas Tree** คือโปรเจกต์งานสร้างสรรค์ในรูปแบบ Interactive 3D ที่รวมเทคโนโลยี **Three.js** และ **MediaPipe AI** เข้าด้วยกัน เพื่อสร้างประสบการณ์วันคริสต์มาสที่ควบคุมได้ผ่านท่าทางการเคลื่อนไหวของมือ (Hand Gestures) พร้อมระบบแสงสีที่หรูหราและยอดดาวที่ขยับตามจังหวะเพลง
+**Magic Christmas Tree** เป็นโปรเจกต์ Interactive 3D ที่ผสานการทำงานของ Three.js และ MediaPipe AI เพื่อสร้างประสบการณ์วันคริสต์มาสที่สามารถควบคุมผ่านการเคลื่อนไหวของมือแบบเรียลไทม์ พร้อมระบบแสง เอฟเฟกต์ และการตอบสนองต่อเสียงเพลงภายในฉาก
 
 ---
 
-## ✨ Features
+## Features
 
-* **🎨 Champagne Gold Visuals:** ระบบแสงระดับพรีเมียม ใช้ระบบ SpotLight 5 จุด และ UnrealBloom เพื่อสร้างเอฟเฟกต์ความแวววาวของเครื่องประดับทอง
-* **🖐️ AI Hand Tracking Control:**
-    * **โหมดต้นไม้ (Tree Mode):** เมื่อกำมือหรือลดมือลง Particle จะรวมตัวกันเป็นทรงต้นคริสต์มาส
-    * **โหมดกระจาย (Scatter Mode):** เมื่อแบมือออก Particle จะกระจายตัวออกรอบทิศทาง
-    * **โหมดโฟกัส (Focus Mode):** ใช้การจีบนิ้ว (Pinch) เพื่อสุ่มดูรูปภาพที่ผู้ใช้งานอัปโหลดขึ้นมาประดับ
-* **🖼️ Personal Ornaments:** สามารถเลือกรูปภาพจากเครื่องคอมพิวเตอร์เพื่อนำไปประดับบนต้นไม้ 3D ได้ทันที
-* **🎵 Star Audio Visualizer:** ยอดดวงดาวจะกะพริบและขยายตัวตามจังหวะเบส (Bass) ของเพลงประกอบ
-* **🕒 Real-time Day/Night Cycle:** ฉากจะปรับระดับความสว่างและสีของหมอก (Fog) ตามเวลาจริง (เช้า/กลางคืน)
+### Champagne Gold Visual Design
+
+ระบบแสงและวัสดุโทนสีทองระดับพรีเมียม โดยใช้ SpotLight จำนวน 5 จุด ร่วมกับ UnrealBloom เพื่อสร้างความแวววาวและมิติของเครื่องประดับบนต้นคริสต์มาส
+
+### AI Hand Tracking Control
+
+**Tree Mode**
+
+* กำมือหรือเลื่อนมือลงเพื่อรวมอนุภาคให้กลายเป็นรูปทรงต้นคริสต์มาส
+
+**Scatter Mode**
+
+* แบมือออกเพื่อกระจายอนุภาครอบฉากแบบอิสระ
+
+**Focus Mode**
+
+* ใช้ท่าจีบนิ้ว (Pinch Gesture) เพื่อสุ่มแสดงรูปภาพที่ผู้ใช้อัปโหลดขึ้นมาประดับบนต้นไม้
+
+### Personal Ornaments
+
+รองรับการอัปโหลดรูปภาพจากเครื่องคอมพิวเตอร์ เพื่อนำมาใช้เป็นของตกแต่งบนต้นคริสต์มาสแบบ 3D ได้ทันที
+
+### Star Audio Visualizer
+
+ยอดดาวด้านบนของต้นไม้จะตอบสนองต่อเสียงเพลง โดยมีการขยายตัวและเปล่งแสงตามจังหวะเบสแบบเรียลไทม์
+
+### Real-time Day/Night Cycle
+
+สภาพแวดล้อมภายในฉากจะเปลี่ยนความสว่าง สีของท้องฟ้า และหมอกตามช่วงเวลาจริงของวัน
 
 ---
 
-## 🕹️ Controls (Hotkeys)
+## Controls
 
-| Key | Action |
-| :---: | :--- |
-| **H** | ซ่อน/แสดง UI (Hide/Show UI) |
-| **G** | ซ่อน/แสดง หน้าต่างกล้อง (Toggle Webcam Preview) |
-| **M** | ปิด/เปิด เพลงประกอบ (Toggle Music) |
+| Key | Function                   |
+| --- | -------------------------- |
+| H   | Show / Hide User Interface |
+| G   | Toggle Webcam Preview      |
+| M   | Toggle Background Music    |
 
 ---
 
-## 🚀 Getting Started
+## Technologies
 
-### Clone the repository
+* Three.js
+* MediaPipe Hands
+* WebGL
+* JavaScript
+* GLSL Shaders
+* UnrealBloomPass
+
+---
+
+## Getting Started
+
+### Clone Repository
 
 ```bash
 git clone https://github.com/yafann/christmas-tree.git
-
+```
